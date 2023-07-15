@@ -1,0 +1,355 @@
+localdarkraiX = loadstring(game:HttpGet("https://raw.githubusercontent.com/GamingScripter/Kavo-Ui/main/Darkrai%20Ui", true))()
+
+local Library = DarkraiX:Window("BaconHub X [version 1.2]","","",Enum.KeyCode.RightControl);
+
+game:GetService("StarterGui"):SetCore("SendNotification", { 
+	Title = "BaconHub x";
+	Text = "By mowananann";
+	Icon = "rbxthumb://type=Asset&id=5107182114&w=150&h=150"})
+Duration = 30;
+
+Tab1 = Library:Tab("scripts")
+
+Tab1:Button("car dealership",function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/IExpIoit/Script/main/UltimateHub"))()
+end)
+
+Tab1:Button("adopt me - Brookhaven - Blox fruits",function()
+    loadstring(game:HttpGet('https://icehub.cf/IceHubLoader'))()
+end)
+
+Tab1:Button("Ohio",function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Mstir16/legocheats/main/archive/Ohio./script.lua"))()
+end)
+
+Tab1:Button("hotel elephant inf money",function()
+    
+game:GetService("ReplicatedStorage").MoneyRequest:FireServer(false, 9999999999999999, "Cash" )
+
+end)
+
+Tab1:Button("free admin punish and ban gui",function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/CrWXVgUY"))()
+end)
+
+Tab1:Button("hotel elephant give all inf money",function()
+    -- Made by mowananann
+
+local SetMoney = 9999999999999999
+
+local plyrs = game:GetService("Players")
+for _,P in pairs(plyrs:GetPlayers()) do
+   local N = {[1] = false, [2] = "inf", [3] = "Cash", [4] = P}
+    local UNN = {[1] = false, [2] = "9223372036854776000", [3] = "Cash", [4] = P}
+    local SixNine = {[1] = false, [2] = SetMoney, [3] = "Cash", [4] = P}
+    
+ game:GetService("ReplicatedStorage").MoneyRequest:FireServer(unpack(N))
+ task.wait(0.10)
+   game:GetService("ReplicatedStorage").MoneyRequest:FireServer(unpack(UNN))
+ task.wait(0.10)
+    game:GetService("ReplicatedStorage").MoneyRequest:FireServer(unpack(SixNine))
+ end
+end)
+
+Tab1:Button("energy assault",function()
+    fov = 180 -- Any angle between 0-180 degrees
+hitpart = "Head" -- "Head", "UpperTorso", etc.
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Spoorloos/scripts/main/energy_assault_silent_aim.lua"))()
+end)
+
+Tab1:Button("broken bones",function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/oShyyyyy/iris-jhub/main/broknebones'))()
+end)
+
+Tab1:Button("funky friday autoplayer",function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ShowerHead-FluxTeam/scripts/main/funky-friday-autoplay"))()
+end)
+
+Tab1:Button("darkai x arsenal",function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/GamingScripter/Darkrai-X/main/Games/Arsenal/MainFile"))()
+end)
+
+Tab1:Button("doors👁️",function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/GamingScripter/Darkrai-X/main/Games/Doors"))()
+end)
+
+Tab1:Button("3008",function()
+    loadstring(game:HttpGet'https://raw.githubusercontent.com/RunDTM/scripts/main/3008.lua')()
+end)
+
+Tab1:Button("keyboard (needed to hide ui)",function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/advxzivhsjjdhxhsidifvsh/mobkeyboard/main/main.txt", true))()
+end)
+
+Tab1:Button("weapon masters(key:RoxHub_KeyWZMORGSLGTNQA)",function()
+        pcall(function()
+Rox_Hub = true
+loadstring(game:HttpGet("https://gist.githubusercontent.com/HaxxV1/d7cfdb5090e819a84a8db22fb113f39d/raw"))()
+end)
+end)
+
+Tab1:Button("bedwars",function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/JNHHGaming/JN-HH-Gaming-Pro/main/JN%20HH%20Gaming%20Pro",true))()
+end)
+
+Tab1:Button("funky friday (key: SWAGONOHIO)",function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Balligusapos/Balligusapos/main/video.mp4"))()
+end)
+
+Tab1:Button("make memes in ur basement at 3 am",function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/stitchTheElite/luascripts/main/mmiyba3A%20tycoon.lua", true))()
+end)
+
+Tab1:Button("project lazarus",function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Bluntman420n/fucns/main/FUCKYOUCUNT.BLUNT", true))()
+end)
+
+Tab1:Button("Dahood",function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/lerkermer/lua-projects/master/SwagModeV002'))()
+end)
+
+Tab1:Button("lucky block",function()
+    loadstring(game:HttpGet"https://raw.githubusercontent.com/Keemaw/LuckyBlock/main/Update%202")()
+end)
+
+Tab1:Button("prison life",function()
+     loadstring(game:HttpGet("https://pastebin.com/raw/mHfK0Xk4", true))()
+end)
+
+Tab1:Button("arsenal 2",function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Maikderninja/Maikderninja/main/PWNERHUB.lua"))();
+end)
+
+Tab1:Button("lucky block 2",function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/zKgfNa77"))()
+end)
+
+Tab1:Button("dahood 2",function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Allvideo/test/main/Whitelist.txt"))()
+end)
+
+Tab1:Button("dahood 3",function()
+    loadstring(game:GetObjects("rbxassetid://5812737894")[1].Source)()
+end)
+
+Tab1:Button("mm2",function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Ethanoj1/EclipseMM2/master/Script", true))()
+end)
+
+Tab1:Button("pls donate",function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/tzechco/roblox-scripts/main/PLS%20DONATE/autofarm.lua'))()
+end)
+
+Tab1:Button("combat warriors",function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/SussyImposterRed/Scripts/main/NOVA_HUB_SOURCE"))()
+end)
+
+Tab1:Button("starving artists",function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Jeux45/Starving-Artist-script/main/Script", true))()
+end)
+
+Tab1:Button("bedwars vape",function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua", true))()
+end)
+
+Tab1:Button("arsenal 3",function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/KeoneGithub/KeoneGithub/main/Arsenal",true))()
+end)
+
+Tab1:Button("Animation",function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/GamingScripter/Animation-Hub/main/Animation%20Gui", true))()
+end)
+
+Tab1:Button("rainbow freinds",function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/Sempiller/RainbowTool/main/Turkish.lua'))();
+end)
+
+Tab1:Button("Auto piano",function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Madness676/3.2Lol/main/AutoPiano3-2.lua", true))()
+end)
+
+Tab1:Button("ragdoll engine",function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/martinelcrac/cryptonichub/main/Ragdollengine.lua'))()
+end)
+
+Tab2 = Library:Tab("hubs")
+
+Tab2:Button("Game destroyer v5",function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/TakeModzz/Games-Hub-V5-Selector-Fixed/main/Games"))()
+end)
+
+Tab2:Button("ez hub",function()
+    loadstring(game:HttpGet(('https://raw.githubusercontent.com/debug420/Ez-Industries-Launcher-Data/master/Launcher.lua'),true))()
+end)
+
+Tab2:Button("vhub",function()
+    loadstring(game:HttpGet(('https://raw.githubusercontent.com/Veincx5315/Created/VHub/Simple'),true))()
+end)
+
+Tab2:Button("british hub",function()
+    loadstring(game:HttpGet(("https://raw.githubusercontent.com/YourLocalNzi/Ye/main/BHob6"),true))()
+end)
+
+Tab2:Button("B_Genesis",function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/raw-scriptpastebin/raw/main/B_Genesis'))()
+end)
+
+Tab2:Button("divine hub",function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/TheRealCrazyfuy/DivineHubCracked/main/DivineHubV1'))()
+end)
+
+Tab2:Button("Owl Hub",function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt"))();
+end)
+
+Tab2:Button("Mini hub",function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/MiniNoobie/MINI-HUB-V2/main/FINALLY%20UPDATED%20MINI%20HUB",true))()
+end)
+
+Tab2:Button("Moon Hub",function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/IlikeyocutgHAH12/MoonUI-v10-/main/MoonUI%20v10'))()
+end)
+
+Tab2:Button("Sxrge hub",function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/sxrge3k/sxrge_ssh_hub/main/sxrge_script_hub"))()
+end)
+
+Tab2:Button("fire Hub",function()
+    loadstring(game:HttpGet('https://pastebin.com/raw/L10U2Bt7', true))()
+end)
+
+Tab2:Button("Kater Hub",function()
+    loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-Kater-Hub-7975", true))()
+end)
+
+Tab2:Button("harshtech 7.4",function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/YellowGreg/HarshTech7.4-Full-Version/main/HarshTechV7.4"))()
+end)
+    
+Tab2:Button("mobile hub",function()
+    loadstring(game:HttpGet('https://pastebin.com/raw/g1CG7iCi'))()
+end)
+
+Tab2:Button("roxhub(key:RoxHub_KeyWZMORGSLGTNQA)",function()
+    pcall(function()
+Rox_Hub = true
+loadstring(game:HttpGet("https://gist.githubusercontent.com/HaxxV1/d7cfdb5090e819a84a8db22fb113f39d/raw"))()
+end)
+end)
+
+Tab3 = Library:Tab("Fe script")
+
+Tab3:Seperator("admin")
+
+Tab3:Button("Reviz admin",function()
+    loadstring(game:HttpGet('https://pastebin.com/raw/RqaZUrBZ'))()
+end)
+
+Tab3:Button("infinte yeild",function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+end)
+
+Tab3:Button("fates admin",function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/fatesc/fates-admin/main/main.lua"))();
+end)
+
+Tab3:Seperator("tools")
+
+Tab3:Button("telekinesis (needs to be unachered)",function()
+    loadstring (game:HttpGet('https://pastebin.com/raw/TVqr1PDq'))()
+end)
+
+Tab3:Button("invisible tool",function()
+    loadstring(game:HttpGet("https://gist.githubusercontent.com/skid123skidlol/cd0d2dce51b3f20ad1aac941da06a1a1/raw/f58b98cce7d51e53ade94e7bb460e4f24fb7e0ff/%257BFE%257D%2520Invisible%2520Tool%2520(can%2520hold%2520tools)",true))()
+end)
+
+Tab3:Button("building tools",function()
+    loadstring(game:GetObjects("rbxassetid://6695644299")[1].Source)()
+end)
+
+Tab3:Button("portal gun",function()
+    loadstring(game:HttpGet(('https://pastefy.ga/hXHOUgDa/raw'),true))()
+end)
+
+Tab3:Seperator ("scripts/fe hubs")
+
+Tab3:Button("simplityv2",function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/HeyGyt/simplityv2/main/main"))()
+end)
+
+Tab3:Button("snap ur neck script",function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/Teemsploit/Epic-roblox-hack/main/FE_Neck_Crack'))()
+end)
+
+Tab3:Button("walk on walls",function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/zXk4Rq2r"))()
+end)
+
+Tab3:Button("fly hd admin",function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/TakeModzz/Ignore-00000/main/Ignore"))()
+end)
+
+Tab3:Button("fe hub",function()
+     loadstring(game:HttpGet('https://raw.githubusercontent.com/Dvrknvss/UniversalFEScriptHub/main/Script'))()
+end)
+
+Tab3:Button("sussy hub",function()
+    loadstring(game:HttpGet(('https://gist.githubusercontent.com/Nilrogram/8b0c8bd710be142f383c71f79279752c/raw/e4fb01a7de7cd498bb53270d2ad191dfab268a88/FE%2520SussyHub'),true))();
+end)
+
+Tab3:Button("fake lag (hit x on keyborad)",function()
+    loadstring(game:HttpGet("https://paste.gg/p/anonymous/d3492bd620bd4c46b54680ac80b0fa0d/files/161ddd9c992c4ceba3c298458d45188a/raw", true))()
+end)
+
+Tab3:Button("pendulum hub",function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Tescalus/Pendulum-Hubs-Source/main/Pendulum%20Hub%20V5.lua"))()
+end)
+
+Tab3:Button("backdoor finder",function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/iK4oS/backdoor.exe/v8/src/main.lua"))()
+end)
+
+Tab5 = Library:Tab("universal")
+
+Tab5:Slider("speed",1,100000,15,function(s)
+    game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = s
+end)
+
+Tab5:Slider("jumppower",1,100000,50,function(s)
+   game.Players.LocalPlayer.Character.Humanoid.JumpPower = s
+end)
+
+Tab5:Button("infinte jump",function()
+local InfiniteJumpEnabled = true
+game:GetService("UserInputService").JumpRequest:connect(function()
+	if InfiniteJumpEnabled then
+		game:GetService"Players".LocalPlayer.Character:FindFirstChildOfClass'Humanoid':ChangeState("Jumping")
+	end
+end)
+end)
+
+Tab5:Button("Noclip (hit e on keyboard)",function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/yxvrgmMH"))()
+end)
+
+Tab5:Button("fly gui",function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/zXUSuxbs"))()
+end)
+
+Tab5:Button("synapse x gui",function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/tWGxhNq0"))()
+end)
+
+Tab5:Button("emote gui",function()
+   loadstring(game:HttpGet("https://pastebin.com/raw/x9Zaunx7"))()
+end)
+
+Tab5:Button("universal arceus x aimbot",function()
+   loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-ARCEUS-X-AIMBOT-OFFICIAL-9385"))()
+end)
+
+Tab6 = Library:Tab("credits")
+
+Tab6:Seperator ("script made by mowananann")
+
+Tab6:Seperator ("also credits to other script owners")
