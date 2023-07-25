@@ -189,10 +189,6 @@ Tab2:Button("ez hub",function()
     loadstring(game:HttpGet(('https://raw.githubusercontent.com/debug420/Ez-Industries-Launcher-Data/master/Launcher.lua'),true))()
 end)
 
-Tab2:Button("vhub",function()
-    loadstring(game:HttpGet(('https://raw.githubusercontent.com/Veincx5315/Created/VHub/Simple'),true))()
-end)
-
 Tab2:Button("british hub",function()
     loadstring(game:HttpGet(("https://raw.githubusercontent.com/YourLocalNzi/Ye/main/BHob6"),true))()
 end)
@@ -237,11 +233,25 @@ Tab2:Button("mobile hub",function()
     loadstring(game:HttpGet('https://pastebin.com/raw/g1CG7iCi'))()
 end)
 
+Tab2:Seperator("hubs with a key system but is worth it")
+
 Tab2:Button("roxhub(key:RoxHub_KeyWZMORGSLGTNQA)",function()
     pcall(function()
 Rox_Hub = true
 loadstring(game:HttpGet("https://gist.githubusercontent.com/HaxxV1/d7cfdb5090e819a84a8db22fb113f39d/raw"))()
 end)
+end)
+
+Tab2:Button("hacker66666666",function()
+    loadstring(game:HttpGet('https://paste.website/p/1c739114-61f8-4eea-b86a-cccb58fc6ef0.txt'))()
+end)
+
+Tab2:Button("Customanim (idk) ",function()
+    loadstring(game:HttpGetAsync 'https://raw.githubusercontent.com/Code1Tech/CustomAnim/main/script.lua')()
+end)
+
+Tab2:Button("Vhub",function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/V31nc/2642/Created/VHub"))()
 end)
 
 Tab3 = Library:Tab("Fe script")
@@ -250,6 +260,10 @@ Tab3:Seperator("admin")
 
 Tab3:Button("Reviz admin",function()
     loadstring(game:HttpGet('https://pastebin.com/raw/RqaZUrBZ'))()
+end)
+
+Tab3:Button("nameless admin",function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/FilteringEnabled/NamelessAdmin/main/Source"))();
 end)
 
 Tab3:Button("infinte yeild",function()
@@ -355,13 +369,13 @@ Tab5:Button("universal arceus x aimbot",function()
    loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-ARCEUS-X-AIMBOT-OFFICIAL-9385"))()
 end) 
 
-Tab6 = Library:Tab("Random scripts i found on discord") 
+Tab6 = Library:Tab("Random") 
 
-Tab6:Button("Random script 1",function()
+Tab6:Button("Sing ballin",function()
    loadstring(game:HttpGet("https://pastebin.com/raw/EiXcuzTJ",true))()
 end)
 
-Tab6:Button("Random script 2",function()
+Tab6:Button("Random script 2 (not working idk why its still here) ",function()
    loadstring(game:HttpGet("https://raw.githubusercontent.com/An28kaza/Kaza-Hub/main/Kaza%20script", true))()
 end)
 
