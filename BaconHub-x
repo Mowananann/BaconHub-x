@@ -10,19 +10,19 @@ Duration = 30;
 
 Tab1 = Library:Tab("Games")
 
-Tab2:Seperator("You need this to hide the script press rightcontrol")
+Tab1:Seperator("You need this to hide the script press rightcontrol")
 
 Tab1:Button("keyboard",function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/advxzivhsjjdhxhsidifvsh/mobkeyboard/main/main.txt", true))()
 end)
 
-Tab7:Seperator ("this is for piano games")
+Tab1:Seperator ("this is for piano games")
 
 Tab1:Button("Auto piano",function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Madness676/3.2Lol/main/AutoPiano3-2.lua", true))()
 end)
 
-Tab7:Seperator ("Games")
+Tab1:Seperator ("Games")
 
 Tab1:Button("Muscle legends",function()
     --muscle legends script 
