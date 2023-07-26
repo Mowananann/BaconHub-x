@@ -10,6 +10,20 @@ Duration = 30;
 
 Tab1 = Library:Tab("Games")
 
+Tab2:Seperator("You need this to hide the script press rightcontrol")
+
+Tab1:Button("keyboard",function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/advxzivhsjjdhxhsidifvsh/mobkeyboard/main/main.txt", true))()
+end)
+
+Tab7:Seperator ("this is for piano games")
+
+Tab1:Button("Auto piano",function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Madness676/3.2Lol/main/AutoPiano3-2.lua", true))()
+end)
+
+Tab7:Seperator ("Games")
+
 Tab1:Button("Muscle legends",function()
     --muscle legends script 
 
@@ -21,7 +35,7 @@ Tab1:Button("car dealership",function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/IExpIoit/Script/main/UltimateHub"))()
 end)
 
-Tab1:Button("adopt me - Brookhaven - Blox fruits",function()
+Tab1:Button("Brookhaven and much more",function()
     loadstring(game:HttpGet('https://icehub.cf/IceHubLoader'))()
 end)
 
@@ -82,10 +96,6 @@ end)
 
 Tab1:Button("3008",function()
     loadstring(game:HttpGet'https://raw.githubusercontent.com/RunDTM/scripts/main/3008.lua')()
-end)
-
-Tab1:Button("keyboard (needed to hide ui)",function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/advxzivhsjjdhxhsidifvsh/mobkeyboard/main/main.txt", true))()
 end)
 
 Tab1:Button("weapon masters(key:RoxHub_KeyWZMORGSLGTNQA)",function()
@@ -163,16 +173,8 @@ Tab1:Button("arsenal 3",function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/KeoneGithub/KeoneGithub/main/Arsenal",true))()
 end)
 
-Tab1:Button("Animation",function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/GamingScripter/Animation-Hub/main/Animation%20Gui", true))()
-end)
-
 Tab1:Button("rainbow freinds",function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/Sempiller/RainbowTool/main/Turkish.lua'))();
-end)
-
-Tab1:Button("Auto piano",function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/Madness676/3.2Lol/main/AutoPiano3-2.lua", true))()
 end)
 
 Tab1:Button("ragdoll engine",function()
@@ -199,6 +201,10 @@ end)
 
 Tab2:Button("divine hub",function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/TheRealCrazyfuy/DivineHubCracked/main/DivineHubV1'))()
+end)
+
+Tab2:Button("Ice Hub",function()
+    loadstring(game:HttpGet('https://icehub.cf/IceHubLoader'))()
 end)
 
 Tab2:Button("Owl Hub",function()
@@ -368,6 +374,14 @@ end)
 Tab5:Button("universal arceus x aimbot",function()
    loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-ARCEUS-X-AIMBOT-OFFICIAL-9385"))()
 end) 
+
+Tab5:Button("fe invisible gui",function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/Bebo-Mods/BeboScripts/main/UniversalInvis.lua", true))()
+end) 
+
+Tab5:Button("Animation",function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/GamingScripter/Animation-Hub/main/Animation%20Gui", true))()
+end)
 
 Tab6 = Library:Tab("Random") 
 
