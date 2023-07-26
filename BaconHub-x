@@ -193,8 +193,12 @@ Tab2:Button("bido",function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/BidoSkinsYT/BidoSkinsYT/main/Bido%20Skins%20V1.6"))()
 end)
 
-Tab2:Button("british hub",function()
+Tab2:Button("british hub v9",function()
     loadstring(game:HttpGet(("https://raw.githubusercontent.com/YourLocalNzi/Ye/main/BHob6"),true))()
+end)
+
+Tab2:Button("british hub v9.5",function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/RedCoat8102/Britishhub/main/Protected_5528274969578405.lua.txt"))()
 end)
 
 Tab2:Button("B_Genesis",function()
