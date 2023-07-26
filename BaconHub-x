@@ -10,9 +10,7 @@ Duration = 30;
 
 Tab1 = Library:Tab("Games")
 
-Tab1:Seperator("You need this to hide the script press rightcontrol")
-
-Tab1:Button("keyboard",function()
+Tab1:Button("keyboard (you need it to hide script) ",function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/advxzivhsjjdhxhsidifvsh/mobkeyboard/main/main.txt", true))()
 end)
 
