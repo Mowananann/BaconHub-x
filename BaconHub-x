@@ -189,6 +189,10 @@ Tab2:Button("ez hub",function()
     loadstring(game:HttpGet(('https://raw.githubusercontent.com/debug420/Ez-Industries-Launcher-Data/master/Launcher.lua'),true))()
 end)
 
+Tab2:Button("bido",function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/BidoSkinsYT/BidoSkinsYT/main/Bido%20Skins%20V1.6"))()
+end)
+
 Tab2:Button("british hub",function()
     loadstring(game:HttpGet(("https://raw.githubusercontent.com/YourLocalNzi/Ye/main/BHob6"),true))()
 end)
@@ -363,6 +367,10 @@ end)
 
 Tab5:Button("synapse x gui",function()
     loadstring(game:HttpGet("https://pastebin.com/raw/tWGxhNq0"))()
+end)
+
+Tab5:Button("better emote gui (this one is not mine like other one)",function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/XNEOFF/FEmotesGui/main/FEmotesGui.lua", true))()
 end)
 
 Tab5:Button("emote gui",function()
