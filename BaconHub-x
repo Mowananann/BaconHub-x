@@ -21,3 +21,397 @@ tab1.newLabel("Credits: Bacon_Dev/mowananann(owner)")
 tab1.newLabel("Indiscontinued")
 
 tab1.newLabel("Reason is i hate you ismail")
+
+tab1.newLabel("Usefull stuff") 
+
+tab1.newButton("Rejoin", "Yes sir its self explanatory", function()
+    game:GetService("TeleportService"):Teleport(game.PlaceId, game:GetService("Players").LocalPlayer)
+end)
+
+tab1.newButton("Severhop", "joins you in a different server", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/VduBT2nt"))()
+end)
+
+tab1.newInput("WalkSpeed", "Changes Your walk speed to the number you type", function(text)
+    game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = tonumber(text)
+end)
+
+tab1.newInput("JumpPower", "Changes Your Jump Power to the number you type", function(text)
+    game.Players.LocalPlayer.Character.Humanoid.JumpPower = tonumber(text)
+end)
+
+tab1.newButton("Script searcher", "Usefull if you dont have an executer with global scripts", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/AZYsGithub/chillz-workshop/main/ScriptSearcher"))()
+end)
+
+tab1.newButton("Keyboard", "Keyboard for mobile", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/advxzivhsjjdhxhsidifvsh/mobkeyboard/main/main.txt", true))()
+end)
+
+tab1.newButton("Dex explorer", "Dex for mobile you can steal game scripts and delete stuff ext", function()
+    getgenv().Key = "Bash"
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Hosvile/Refinement/main/MC%3AIY%20Dex",true))()
+end)
+
+tab1.newLabel("Universal") 
+
+tab1.newButton("Fake limiteds (Fe)", "You a bitch if you use this", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/scripthubekitten/fakelimitedsv2/main/fakelimitedsv2", true))()
+end)
+
+tab1.newButton("Fling gui", "Yipee now i copy and paste this into troll cuz its good", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/0Ben1/fe./main/Fling%20GUI"))()
+end)
+
+tab1.newButton("Chat spy [FE]", "Yes sir its self explanatory basically spy on priv chat", function()
+    loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-Chat-Spy-Script-2104"))()
+end)
+
+tab1.newButton("inf jump", "Gives you inf jump so you can jump forever", function()
+    local InfiniteJumpEnabled = true
+game:GetService("UserInputService").JumpRequest:connect(function()
+	if InfiniteJumpEnabled then
+		game:GetService"Players".LocalPlayer.Character:FindFirstChildOfClass'Humanoid':ChangeState("Jumping")
+	end
+end)
+end)
+
+tab1.newButton("Noclip", "Makes you walk in walls to use or disable it click e on keyboard", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/yxvrgmMH"))()
+end)
+
+tab1.newButton("Fly gui", "A little fly gui will appear that will make you fly", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/zXUSuxbs"))()
+end)
+
+tab1.newButton("Synapse x gui", "Fake little synapse x gui to troll ur freind with if you want", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/tWGxhNq0"))()
+end)
+
+tab1.newButton("Emote gui", "Free emotes that are fe ( not for r6) ", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/XNEOFF/FEmotesGui/main/FEmotesGui.lua", true))()
+end)
+
+tab1.newButton("Invisible gui", "Gui that makes you go invisible also its fe", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Bebo-Mods/BeboScripts/main/UniversalInvis.lua", true))()
+end)
+
+tab1.newButton("Animations", "Fe free animations (not for r6) ", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/GamingScripter/Animation-Hub/main/Animation%20Gui", true))()
+end)
+
+tab1.newLabel("Troll")
+
+tab1.newButton("Fake limiteds (Fe)", "You a bitch if you use this", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/scripthubekitten/fakelimitedsv2/main/fakelimitedsv2", true))()
+end)
+
+tab1.newButton("Fling gui", "Yipee now i copy and paste this into troll cuz its good aint gonna change", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/0Ben1/fe./main/Fling%20GUI"))()
+end)
+
+tab1.newButton("Sing ballin", "Keyboard for mobile", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/EiXcuzTJ",true))()
+end)
+
+tab1.newButton("Unnamed Fe hub", "Op script hub", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/Dvrknvss/UniversalFEScriptHub/main/Script'))()
+end)
+
+tab1.newButton("Sussy hub", "Amog us...... Sus.. When imposter is sus(R6) ", function()
+    loadstring(game:HttpGet(('https://gist.githubusercontent.com/Nilrogram/8b0c8bd710be142f383c71f79279752c/raw/e4fb01a7de7cd498bb53270d2ad191dfab268a88/FE%2520SussyHub'),true))();
+end)
+
+tab1.newButton("Simplityv2", "Op Fe hub (R6) ", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/HeyGyt/simplityv2/main/main"))()
+end)
+
+tab1.newButton("Pendulum Hub", "Op Fe hub (R6) ", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Tescalus/Pendulum-Hubs-Source/main/Pendulum%20Hub%20V5.lua"))()
+end)
+
+tab1.newButton("Fake lag", "Activate or deactivate by hitting x on keyboard ", function()
+    loadstring(game:HttpGet("https://paste.gg/p/anonymous/d3492bd620bd4c46b54680ac80b0fa0d/files/161ddd9c992c4ceba3c298458d45188a/raw", true))()
+end) 
+
+tab1.newButton("Noclip", "Makes you walk in walls to use or disable it click e on keyboard", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/yxvrgmMH"))()
+end)
+
+tab1.newButton("Emote gui", "Free emotes that are fe ( not for r6) ", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/XNEOFF/FEmotesGui/main/FEmotesGui.lua", true))()
+end)
+
+tab1.newButton("Invisible gui", "Gui that makes you go invisible also its fe", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Bebo-Mods/BeboScripts/main/UniversalInvis.lua", true))()
+end)
+
+local tab2 = DrRayLibrary.newTab("Games", "ImageIdHere")
+
+tab2.newLabel("Simulators or grinding games")
+
+tab2.newLabel("BloxFruits")
+
+tab2.newButton("uranium", "Bloxfruit script", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Augustzyzx/UraniumMobile/main/UraniumKak.lua"))()
+end)
+
+tab2.newButton("Hoho hub", "Bloxfruit script", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI'))()
+end)
+
+tab2.newButton("Neva Hub", "Bloxfruit script My favorite", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/VEZ2/NEVAHUB/main/2'))()
+end)
+
+tab2.newButton("Auto Bounty", "Bloxfruit script", function()
+    _G.Team = "Pirate"
+loadstring(game:HttpGet("https://raw.githubusercontent.com/AloneBiNgu/AloneHub/main/BountyV2.lua"))()
+end)
+
+tab2.newButton("Quy Hub (Key) ", "Key link : https://bit.ly/43Nl3tu", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/tngaming123/YTB-TNGaming/main/QuyHub.lua"))()
+end)
+
+tab2.newButton("Qwerty hub", "Bloxfruit script", function()
+    loadstring(game:HttpGet"https://raw.githubusercontent.com/PNguyen0199/Qwerty-Hub/main/Qwerty-Hub.lua")()
+end)
+
+tab2.newButton("AutoFarm Chest", "Bloxfruit script", function()
+    loadstring(game:HttpGet("https://luable.netlify.app/AlchemyHub/ChestFarm.script"))()
+end)
+
+tab2.newButton("Hirimii", "Bloxfruit script", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/Hirimii/ScriptBF/main/Loader4.lua'))()
+end)
+
+tab2.newButton("GringoHub", "Bloxfruit script", function()
+    loadstring(game:HttpGet("https://github.com/LeVanNhatIT/GringoHub/raw/main/Loading_Ui/Loading"))()
+end)
+
+tab2.newButton("Law Hub", "Bloxfruit script", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/BestScriptEverr/Main-/main/Law%20hub"))()
+end)
+
+tab2.newButton("Tryhard (key) ", "Link Get Key : https://bit.ly/3Kbnoay", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/tryharder0009z/TryHardHub/main/TryHardLoader"))()
+end)
+
+tab2.newButton("Upgrade Hub", "Link Get Key : https://bit.ly/3OvESRR", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/UpdateHub123/UpgradeHub/main/UpgradeMain"))()
+end)
+
+tab2.newLabel("Muscle legends")
+
+tab2.newButton("Turbo Hub (key) ", "Muscle legends script", function()
+    loadstring(Game:HttpGet"https://gitlab.com/turbohubz/loader.xyz/loader/-/raw/main/TurboHub-Loader")()
+end)
+
+tab2.newButton("White", "Idk the full name", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/harisiskandar178/Roblox-Script/main/Muscle%20Legend"))()
+end)
+
+tab2.newButton("Red", "Idk the full name", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/jynzl/main/main/Musclas%20Legenos.lua'))()
+end)
+
+tab2.newButton("Speed Hub (Key) ", "Muscle legends scripts", function()
+    loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/ahmadsgamer2/Speed-Hub-X/main/SpeedHubX"))()
+end)
+
+tab2.newLabel("Goal kick simulator")
+
+tab2.newButton("Op script", "It doesnt have a name", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/insanedude59/Scripts/main/GoalKickSimulator"))()
+end)
+
+tab2.newButton("Simple (key) ", "Simple script", function()
+    loadstring(game:HttpGet"https://thedragonslayer2.github.io")()
+end)
+
+tab2.newLabel("Arm wrestle simulator")
+
+tab2.newButton("Lds Hub (key) ", "Op script", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/limaspeedy/limaspeedy/main/HubLDS"))()
+end)
+
+tab2.newButton("Script 2 (key) ", "Dupe pets!!!!", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/LOLking123456/wrestle24/main/RobloxSim1"))()
+end)
+
+tab2.newLabel("ninja legends")
+
+tab2.newButton("Proxima hub ", "nice", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/TrixAde/Proxima-Hub/main/Main.lua"))()
+end)
+
+tab2.newButton("Strike hub", "nice", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/StormSKz12/StirkeHub1/main/Gameincluded"))()
+end)
+
+tab2.newButton("Script 2 (key) ", "Dupe pets!!!!", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/LOLking123456/wrestle24/main/RobloxSim1"))()
+end)
+
+tab2.newButton("Script 2 (key) ", "Dupe pets!!!!", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/LOLking123456/wrestle24/main/RobloxSim1"))()
+end)
+
+tab2.newButton("Flame hub (key) ", "Nice", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/1Toxin/flame/main/loader"))()
+end)
+
+tab2.newLabel("RP")
+
+tab2.newButton("Ice hub", "Ice hub supports alot of rp games Moostly brookhaven", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/IceMael7/NewIceHub/main/Brookhaven"))() 
+end)
+
+tab2.newLabel("Auto piano")
+
+tab2.newButton("Auto piano Yipee", "Nice", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Madness676/3.2Lol/main/AutoPiano3-2.lua", true))()
+end)
+
+tab2.newLabel("Break in 2")
+
+tab2.newButton("Yes break in 2", "Nice", function()
+    loadstring(game:HttpGet("https://freenote.biz/raw/qLlMYwbVNd",true))()
+end)
+
+tab2.newLabel("Tycoons & fps games coming soon!!!!")
+
+local tab3 = DrRayLibrary.newTab("Hubs", "ImageIdHere")
+
+tab3.newButton("light zone hub", "Op script hub", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ImJosh66/Idjrf5/main/Protected_3590052699937668.lua.txt"))()
+end)
+
+tab3.newButton("OrangeX", "Op script hub", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ImJosh66/Ab2rW/main/ORANGEX%20V5%20RELEASED%20ORANGEX%20ON%20TOP%20.txt"))()
+end)
+
+tab3.newButton("Game destroyer", "Op script hub", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/TakeModzz/Games-Hub-V5-Selector-Fixed/main/Games"))()
+end)
+
+tab3.newButton("gigachad hub", "Op script hub", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/OWJBWKQLAISH/GigaChad-Hub/main/Gigachad%20Hub%20V4'))()
+end)
+
+tab3.newButton("Ez Hub", "Op script hub", function()
+    loadstring(game:HttpGet(('https://raw.githubusercontent.com/debug420/Ez-Industries-Launcher-Data/master/Launcher.lua'),true))()
+end)
+
+tab3.newButton("Bido Hub", "Op script hub", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/BidoSkinsYT/BidoSkinsYT/main/Bido%20Skins%20V1.8"))()
+end)
+
+tab3.newButton("British Hub v9.5", "Op script hub", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/RedCoat8102/Britishhub/main/Protected_5528274969578405.lua.txt"))()
+end)
+
+tab3.newButton("B_Genesis", "Op script hub", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/raw-scriptpastebin/raw/main/B_Genesis'))()
+end)
+
+tab3.newButton("Divine Hub", "Op script hub", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/TheRealCrazyfuy/DivineHubCracked/main/DivineHubV1'))()
+end)
+
+tab3.newButton("IceHub", "Op script hub", function()
+    loadstring(game:HttpGet('https://icehub.cf/IceHubLoader'))()
+end)
+
+tab3.newButton("Owl Hub", "Op script hub", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt"))();
+end)
+
+tab3.newButton("Mini Hub", "Op script hub", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/MiniNoobie/MINI-HUB-V2/main/FINALLY%20UPDATED%20MINI%20HUB",true))()
+end)
+
+tab3.newButton("Old Moon Hub", "Op script hub", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/IlikeyocutgHAH12/MoonUI-v10-/main/MoonUI%20v10'))()
+end)
+
+tab3.newButton("sxrge Hub", "Op script hub", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/sxrge3k/sxrge_ssh_hub/main/sxrge_script_hub"))()
+end)
+
+tab3.newButton("Fire Hub", "Op script hub", function()
+    loadstring(game:HttpGet('https://pastebin.com/raw/L10U2Bt7', true))()
+end)
+
+tab3.newButton("Kater Hub", "Op script hub", function()
+    loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-Kater-Hub-7975", true))()
+end)
+
+tab3.newButton("Harshtech", "Op script hub", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/YellowGreg/HarshTech7.4-Full-Version/main/HarshTechV7.4"))()
+end)
+
+tab3.newLabel("Hubs with Key System But its worth it")
+
+tab3.newButton("Rox Hub", "Op script hub", function()
+    pcall(function()
+Rox_Hub = true
+loadstring(game:HttpGet("https://gist.githubusercontent.com/HaxxV1/d7cfdb5090e819a84a8db22fb113f39d/raw"))()
+end)
+end)
+
+tab3.newButton("flame hub", "Game suppoted: join theyre disco to see :https://discord.gg/T3BC2dkJ", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/1Toxin/flame/main/loader"))()
+end)
+
+tab3.newButton("Hacker 6666666", "Op script hub", function()
+    loadstring(game:HttpGet('https://paste.website/p/1c739114-61f8-4eea-b86a-cccb58fc6ef0.txt'))()
+end)
+
+tab3.newButton("British Hub v10", "Op script hub", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/RedCoat8102/Britishhub/main/Protected_4099651388727348.lua.txt"))()
+end)
+
+tab3.newButton("Vhub", "Op script hub", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/V31nc/2642/Created/VHub"))()
+end)
+
+tab3.newLabel("Fe Hubs")
+
+tab3.newButton("Unnamed Fe hub", "Op script hub", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/Dvrknvss/UniversalFEScriptHub/main/Script'))()
+end)
+
+tab3.newButton("Sussy hub", "Amog us...... Sus.. When imposter is sus", function()
+    loadstring(game:HttpGet(('https://gist.githubusercontent.com/Nilrogram/8b0c8bd710be142f383c71f79279752c/raw/e4fb01a7de7cd498bb53270d2ad191dfab268a88/FE%2520SussyHub'),true))();
+end)
+
+tab3.newButton("Simplityv2", "Op Fe hub", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/HeyGyt/simplityv2/main/main"))()
+end)
+
+tab3.newButton("Pendulum Hub", "Op Fe hub", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Tescalus/Pendulum-Hubs-Source/main/Pendulum%20Hub%20V5.lua"))()
+end)
+
+local tab4 = DrRayLibrary.newTab("Admin", "ImageIdHere")
+
+tab4.newButton("Iv admin", "Fe admin script", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/BloodyBurns/Hex/main/Iv%20Admin%20v3.lua"))()
+end)
+
+tab4.newButton("infinite yeild", "Fe admin script", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+end)
+
+tab4.newButton("Reviz Admin", "Fe admin script", function()
+    loadstring(game:HttpGet('https://pastebin.com/raw/RqaZUrBZ'))()
+end)
+
+tab4.newButton("Fates admin", "Fe admin script", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/fatesc/fates-admin/main/main.lua"))();
+end)
+
+tab4.newButton("nameless admin", "Fe admin script", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/FilteringEnabled/NamelessAdmin/main/Source"))();
+end)
