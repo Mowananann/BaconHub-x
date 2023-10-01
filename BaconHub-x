@@ -18,9 +18,9 @@ local tab1 = DrRayLibrary.newTab("Main", "ImageIdHere")
 
 tab1.newLabel("Credits: Bacon_Dev/mowananann(owner)")
 
-tab1.newLabel("Indiscontinued")
+tab1.newLabel("Updated")
 
-tab1.newLabel("Reason, Working On a new Project")
+tab1.newLabel("Find more stuff in the last tab")
 
 tab1.newLabel("Usefull stuff") 
 
@@ -414,4 +414,32 @@ end)
 
 tab4.newButton("nameless admin", "Fe admin script", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/FilteringEnabled/NamelessAdmin/main/Source"))();
+end)
+
+local tab5 = DrRayLibrary.newTab("Update Log", "ImageIdHere")
+
+tab5.newLabel("Update log ") 
+
+tab5.newLabel("(using buttons to say updqtes if clicked non happens)") 
+
+tab5.newButton("Update 1: Added even more hubs and also this", "Yes sir its self explanatory", function()
+    print("Non")
+end)
+
+tab5.newButton("Update 2: adding more games(to request game contact me on discord)", "Yes sir its self explanatory", function()
+    setclipboard("baconman7517")
+end)
+
+tab5.newLabel("Click on Update 2 or 4 to copy my discord tag") 
+
+tab5.newButton("Update 3: I may add a keysystem in the future", "Yes sir its self explanatory", function()
+    print("Non")
+end)
+
+tab5.newButton("Update 4: Giving beta tester role (to get it contact me on discord)", "Yes sir its self explanatory", function()
+    setclipboard("baconman7517")
+end)
+
+tab5.newButton("Update 5: Added My Require scripts collection (click on me to get link to it)", "Yes sir its self explanatory", function()
+    setclipboard("pastebin.com/raw/CL3t7q9J")
 end)
