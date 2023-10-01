@@ -283,8 +283,8 @@ tab2.newLabel("Tycoons & fps games coming soon!!!!")
 
 local tab3 = DrRayLibrary.newTab("Hubs", "ImageIdHere")
 
-tab3.newButton("light zone hub", "Op script hub", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/ImJosh66/Idjrf5/main/Protected_3590052699937668.lua.txt"))()
+tab3.newButton("Hydro hub", "Op script hub", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/FRX397/Hydrohub/main/Hydro_hub", true))()
 end)
 
 tab3.newButton("OrangeX", "Op script hub", function()
