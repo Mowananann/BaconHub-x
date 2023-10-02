@@ -110,6 +110,14 @@ tab1.newButton("Fling gui", "Yipee now i copy and paste this into troll cuz its 
     loadstring(game:HttpGet("https://raw.githubusercontent.com/0Ben1/fe./main/Fling%20GUI"))()
 end)
 
+tab1.newButton("Rizz gui", "Rizz up the bitches", function()
+    loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-rizz-gui-script-6992"))()
+end)
+
+tab1.newButton("Roast gui", "Roast em all", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Sjskdnsidjskfn/Roast-gui-UPDATED-Version-/main/Roast%20gui%20(UPDATED%20Version)"))();
+end)
+
 tab1.newButton("Sing ballin", "Keyboard for mobile", function()
     loadstring(game:HttpGet("https://pastebin.com/raw/EiXcuzTJ",true))()
 end)
@@ -239,6 +247,10 @@ tab2.newButton("Script 2 (key) ", "Dupe pets!!!!", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/LOLking123456/wrestle24/main/RobloxSim1"))()
 end)
 
+tab2.newButton("Flame hub (key) ", "Nice", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/1Toxin/flame/main/loader"))()
+end)
+
 tab2.newLabel("ninja legends")
 
 tab2.newButton("Proxima hub ", "nice", function()
@@ -257,8 +269,11 @@ tab2.newButton("Script 2 (key) ", "Dupe pets!!!!", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/LOLking123456/wrestle24/main/RobloxSim1"))()
 end)
 
-tab2.newButton("Flame hub (key) ", "Nice", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/1Toxin/flame/main/loader"))()
+
+tab2.newLabel("Elemental dungeon")
+
+tab2.newButton("Elemental dungeon ", "Nice", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/ToraIsMe/ToraIsMe/main/0Elemental'))()
 end)
 
 tab2.newLabel("RP")
@@ -267,19 +282,85 @@ tab2.newButton("Ice hub", "Ice hub supports alot of rp games Moostly brookhaven"
     loadstring(game:HttpGet("https://raw.githubusercontent.com/IceMael7/NewIceHub/main/Brookhaven"))() 
 end)
 
+tab2.newLabel("Brookhaven")
+
+tab2.newButton("Ice hub", "Ice hub supports alot of rp games Moostly brookhaven", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/IceMael7/NewIceHub/main/Brookhaven"))() 
+end)
+
+tab2.newButton("Redz hub", "Nice", function()
+    local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/REDzHUB/OrionLib/main/Orion')))()
+local gameName = game:GetService("MarketplaceService"):GetProductInfo(game.PlaceId).Name
+local Window = OrionLib:MakeWindow({Name = "REDz HUB : "..gameName, HidePremium = false, SaveConfig = true, ConfigFolder = "teste"})
+
+local REDz = Window:MakeTab({Name = "Main",Icon = "rbxassetid://13687632207",PremiumOnly = false})
+
+REDz:AddButton({Name = "REDz HUB In English",Callback = function()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/REDzHUB/HR/main/REDzHUBeng"))()
+end})
+
+REDz:AddButton({Name = "REDz HUB em Português",Callback = function()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/REDzHUB/REDzHUB/main/REDzHUB"))()
+end})
+end)
+
+tab2.newLabel("Genirec roleplay gaem")
+
+tab2.newButton("Watty hub", "Not mine", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/Wattville/Watty-Hub-Public/main/watty-hub'))()
+end)
+
+tab2.newButton("Op autofarm", "Not mine", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/KYyXSkCq"))()
+end)
+
 tab2.newLabel("Auto piano")
 
-tab2.newButton("Auto piano Yipee", "Nice", function()
+tab2.newButton("Auto piano Yipee", "WOAHH", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Madness676/3.2Lol/main/AutoPiano3-2.lua", true))()
 end)
 
-tab2.newLabel("Break in 2")
+tab2.newLabel("Story Games")
 
-tab2.newButton("Yes break in 2", "Nice", function()
+tab2.newLabel("Break in 2 and 1")
+
+tab2.newButton("break in 1", "Nice", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/megamoeus/HHubmega/master/BreakIn", true))()
+end)
+
+tab2.newButton("break in 2", "ok cool", function()
     loadstring(game:HttpGet("https://freenote.biz/raw/qLlMYwbVNd",true))()
 end)
 
-tab2.newLabel("Tycoons & fps games coming soon!!!!")
+tab2.newLabel("Fps Games")
+
+tab2.newLabel("Blade Ball")
+
+tab2.newButton("Blade Ball auto block (not working rn)", "EHHHHHHHHHHHHH MAZING", function()
+    loadstring(game:HttpGet("https://paste-drop.com/raw/FGAUZH0IEO"))()
+end)
+
+tab2.newButton("Bedol Hub", "Yes sir", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/3345-c-a-t-s-u-s/SourceLua/main/Blade_Ball.lua"))()
+end)
+
+tab2.newLabel("Arsenal")
+
+tab2.newButton("HameWare Hub", "idk", function()
+    loadstring(game:HttpGet("https://paste-drop.com/raw/KOKB1i9m8w"))()
+end)
+
+tab2.newButton("Ummm idk name", "idk", function()
+    loadstring(game:HttpGet('https://pastebin.com/raw/T3fzg7tm', true))()
+end)
+
+tab2.newButton("Esp and aimbot (made by me)", "idk", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/TestForCry/robloxhacks/master/Arsenal%20ESP%20and%20AimBot"))()
+end)
+
+tab2.newButton("ummm yeah idk about this one to", "idk", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/TestForCry/robloxhacks/master/Arsenal%20Gui%20V0"))()
+end)
 
 local tab3 = DrRayLibrary.newTab("Hubs", "ImageIdHere")
 
@@ -289,10 +370,6 @@ end)
 
 tab3.newButton("OrangeX", "Op script hub", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/ImJosh66/Ab2rW/main/ORANGEX%20V5%20RELEASED%20ORANGEX%20ON%20TOP%20.txt"))()
-end)
-
-tab3.newButton("Game destroyer", "Op script hub", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/TakeModzz/Games-Hub-V5-Selector-Fixed/main/Games"))()
 end)
 
 tab3.newButton("gigachad hub", "Op script hub", function()
