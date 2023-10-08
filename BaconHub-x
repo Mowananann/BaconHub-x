@@ -362,6 +362,22 @@ tab2.newButton("ummm yeah idk about this one to", "idk", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/TestForCry/robloxhacks/master/Arsenal%20Gui%20V0"))()
 end)
 
+tab2.newLabel("Tycoons")
+
+tab2.newLabel("Car dealership tycoon")
+
+tab2.newButton("astronic (Key system)", "VERY OP", function()
+    loadstring(game:HttpGet("https://astronomic.vercel.app"))()
+end)
+
+tab2.newButton("Buttif (Key system)", "yes", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/NEWBUTIF/Universal-Script-Hub/main/Butif%20Hub"))()
+end)
+
+tab2.newButton("Simple ui but has car speed changer", "yes", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/weiny-ez/Weinz_Car-Dealership/main/weinz_cars.lua'))()
+end)
+
 local tab3 = DrRayLibrary.newTab("Hubs", "ImageIdHere")
 
 tab3.newButton("Hydro hub", "Op script hub", function()
@@ -437,6 +453,10 @@ loadstring(game:HttpGet("https://gist.githubusercontent.com/HaxxV1/d7cfdb5090e81
 end)
 end)
 
+tab2.newButton("Buttif Hub", "ALOT OF SUPPORTED GAMES", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/NEWBUTIF/Universal-Script-Hub/main/Butif%20Hub"))()
+end)
+
 tab3.newButton("flame hub", "Game suppoted: join theyre disco to see :https://discord.gg/T3BC2dkJ", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/1Toxin/flame/main/loader"))()
 end)
@@ -499,11 +519,11 @@ tab5.newLabel("Update log ")
 
 tab5.newLabel("(using buttons to say updqtes if clicked non happens)") 
 
-tab5.newButton("Update 1: Added even more hubs and also this", "Yes sir its self explanatory", function()
+tab5.newButton("Update 1: Added more hubs", "Yes sir its self explanatory", function()
     print("Non")
 end)
 
-tab5.newButton("Update 2: adding more games(to request game contact me on discord)", "Yes sir its self explanatory", function()
+tab5.newButton("Update 2: added more games(to request game contact me on discord)", "Yes sir its self explanatory", function()
     setclipboard("baconman7517")
 end)
 
