@@ -18,7 +18,7 @@ local tab1 = DrRayLibrary.newTab("Main", "ImageIdHere")
 
 tab1.newLabel("Credits: Bacon_Dev/mowananann(owner)")
 
-tab1.newLabel("Status:🟢-Updated")
+tab1.newLabel("Status:Updated")
 
 tab1.newLabel("Check Update Logs For news")
 
