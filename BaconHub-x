@@ -524,10 +524,6 @@ end)
 
 tab5.newLabel("Click on Update 2 or 4 to copy my discord tag") 
 
-tab5.newButton("Update 3: Discord server for my new project and baconhub x", "Wait Until its done xd", function()
-    print("Non")
-end)
-
 tab5.newButton("Update 4: Giving beta tester role (to get it contact me on discord)", "Yes sir its self explanatory", function()
     setclipboard("baconman7517")
 end)
