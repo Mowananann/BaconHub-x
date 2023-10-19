@@ -16,9 +16,7 @@ local window = DrRayLibrary:Load("BaconHub x [V.1.3]", "Default")
 
 local tab1 = DrRayLibrary.newTab("Main", "ImageIdHere") 
 
-tab1.newLabel("Credits: Bacon_Dev/mowananann(owner)")
-
-tab1.newLabel("Status:Updated")
+tab1.newLabel("Credits:Mowananann/Bacon_Dev")
 
 tab1.newLabel("Check Update Logs For news")
 
@@ -265,12 +263,6 @@ tab2.newButton("Script 2 (key) ", "Dupe pets!!!!", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/LOLking123456/wrestle24/main/RobloxSim1"))()
 end)
 
-tab2.newLabel("Taxi Boss")
-
-tab2.newButton("BaconBlitz Hub", "First ever supported game from my new project", function()
-    loadstring(game:HttpGet("https://pastebin.com/raw/Hqchd7vN"))()
-end)
-
 tab2.newLabel("Elemental dungeon")
 
 tab2.newButton("Elemental dungeon ", "Nice", function()
@@ -445,19 +437,7 @@ tab3.newButton("Harshtech", "Op script hub", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/YellowGreg/HarshTech7.4-Full-Version/main/HarshTechV7.4"))()
 end)
 
-tab3.newButton("Astronyx Hub", "Op script hub", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/1tsFire/Astrolynx/main/AstrolynxScripts.lua", true))()
-end)
-
-tab3.newButton("Alysse Hub", "Op script hub", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/NathTheDev/AlysseAndroid/main/loader.lua"))()
-end)
-
 tab3.newLabel("Hubs with Key System But its worth it")
-
-tab3.newButton("The Hub", "Good script hub xd", function()
-    loadstring(game:HttpGet('https://raw.githubusercontent.com/hassantheking123321/TheHub/main/The%20hub%20v3%20test'))()
-end)
 
 tab3.newButton("Rox Hub", "Op script hub", function()
     pcall(function()
