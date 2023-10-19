@@ -18,9 +18,9 @@ local tab1 = DrRayLibrary.newTab("Main", "ImageIdHere")
 
 tab1.newLabel("Credits: Bacon_Dev/mowananann(owner)")
 
-tab1.newLabel("Updated")
+tab1.newLabel("Status:🟢-Updated")
 
-tab1.newLabel("Find more stuff in the last tab")
+tab1.newLabel("Check Update Logs For news")
 
 tab1.newLabel("Usefull stuff") 
 
@@ -84,10 +84,6 @@ tab1.newButton("Fly gui", "A little fly gui will appear that will make you fly",
     loadstring(game:HttpGet("https://pastebin.com/raw/zXUSuxbs"))()
 end)
 
-tab1.newButton("Synapse x gui", "Fake little synapse x gui to troll ur freind with if you want", function()
-    loadstring(game:HttpGet("https://pastebin.com/raw/tWGxhNq0"))()
-end)
-
 tab1.newButton("Emote gui", "Free emotes that are fe ( not for r6) ", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/XNEOFF/FEmotesGui/main/FEmotesGui.lua", true))()
 end)
@@ -110,7 +106,7 @@ tab1.newButton("Fling gui", "Yipee now i copy and paste this into troll cuz its 
     loadstring(game:HttpGet("https://raw.githubusercontent.com/0Ben1/fe./main/Fling%20GUI"))()
 end)
 
-tab1.newButton("Rizz gui", "Rizz up the bitches", function()
+tab1.newButon("Rizz gui", "Rizz up the bitches", function()
     loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-rizz-gui-script-6992"))()
 end)
 
@@ -269,6 +265,11 @@ tab2.newButton("Script 2 (key) ", "Dupe pets!!!!", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/LOLking123456/wrestle24/main/RobloxSim1"))()
 end)
 
+tab2.newLabel("Taxi Boss")
+
+tab2.newButton("BaconBlitz Hub", "First ever supported game from my new project", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/Hqchd7vN"))()
+end)
 
 tab2.newLabel("Elemental dungeon")
 
@@ -444,7 +445,19 @@ tab3.newButton("Harshtech", "Op script hub", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/YellowGreg/HarshTech7.4-Full-Version/main/HarshTechV7.4"))()
 end)
 
+tab3.newButton("Astronyx Hub", "Op script hub", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/1tsFire/Astrolynx/main/AstrolynxScripts.lua", true))()
+end)
+
+tab3.newButton("Alysse Hub", "Op script hub", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/NathTheDev/AlysseAndroid/main/loader.lua"))()
+end)
+
 tab3.newLabel("Hubs with Key System But its worth it")
+
+tab3.newButton("The Hub", "Good script hub xd", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/hassantheking123321/TheHub/main/The%20hub%20v3%20test'))()
+end)
 
 tab3.newButton("Rox Hub", "Op script hub", function()
     pcall(function()
@@ -453,7 +466,7 @@ loadstring(game:HttpGet("https://gist.githubusercontent.com/HaxxV1/d7cfdb5090e81
 end)
 end)
 
-tab2.newButton("Buttif Hub", "ALOT OF SUPPORTED GAMES", function()
+tab3.newButton("Buttif Hub", "ALOT OF SUPPORTED GAMES", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/NEWBUTIF/Universal-Script-Hub/main/Butif%20Hub"))()
 end)
 
@@ -517,19 +530,21 @@ local tab5 = DrRayLibrary.newTab("Update Log", "ImageIdHere")
 
 tab5.newLabel("Update log ") 
 
-tab5.newLabel("(using buttons to say updqtes if clicked non happens)") 
+tab5.newLabel("My New project called BaconBlitHub coming soon") 
 
-tab5.newButton("Update 1: Added more hubs", "Yes sir its self explanatory", function()
+tab5.newLabel("(using buttons to say updates if clicked non happens)") 
+
+tab5.newButton("Update 1: Added 3 new hubs", "Yes sir its self explanatory", function()
     print("Non")
 end)
 
-tab5.newButton("Update 2: added more games(to request game contact me on discord)", "Yes sir its self explanatory", function()
+tab5.newButton("Update 2: added 1 new game(to request game contact me on discord)", "Yes sir its self explanatory", function()
     setclipboard("baconman7517")
 end)
 
 tab5.newLabel("Click on Update 2 or 4 to copy my discord tag") 
 
-tab5.newButton("Update 3: I may add a keysystem in the future", "Yes sir its self explanatory", function()
+tab5.newButton("Update 3: Discord server for my new project and baconhub x", "Wait Until its done xd", function()
     print("Non")
 end)
 
@@ -537,6 +552,6 @@ tab5.newButton("Update 4: Giving beta tester role (to get it contact me on disco
     setclipboard("baconman7517")
 end)
 
-tab5.newButton("Update 5: Added My Require scripts collection (click on me to get link to it)", "Yes sir its self explanatory", function()
+tab5.newButton("Update 5: Get My Require scripts collection (click on me to get link to it)", "Yes sir its self explanatory", function()
     setclipboard("pastebin.com/raw/CL3t7q9J")
 end)
